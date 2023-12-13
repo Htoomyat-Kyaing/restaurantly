@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="w-screen h-max">
       <div className="w-full h-full bg-[url('./assets/about-bg.jpg')] bg-cover bg-center">
-        <div className="w-full h-full bg-zinc-900 bg-opacity-50 py-16">
+        <div className="w-full h-full bg-zinc-900 bg-opacity-50 py-16 px-6 md:px-0">
           <div className="mx-auto grid md:grid-cols-2 md:gap-6 md:px-20">
             <img
               className="md:col-start-2 row-start-1 md:max-w-md"

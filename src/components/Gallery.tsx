@@ -1,3 +1,12 @@
+import Gallery1 from "../assets/gallery-1.jpg";
+import Gallery2 from "../assets/gallery-2.jpg";
+import Gallery3 from "../assets/gallery-3.jpg";
+import Gallery4 from "../assets/gallery-4.jpg";
+import Gallery5 from "../assets/gallery-5.jpg";
+import Gallery6 from "../assets/gallery-6.jpg";
+import Gallery7 from "../assets/gallery-7.jpg";
+import Gallery8 from "../assets/gallery-8.jpg";
+
 const Gallery = () => {
   return (
     <section className="w-screen px-6 py-12 h-max bg-zinc-900 md:px-20">
@@ -9,16 +18,16 @@ const Gallery = () => {
       <div className="grid mt-6 divide-x-2 divide-y-2 divide-x-reverse divide-y-reverse md:grid-cols-3 lg:grid-cols-4">
         <img
           className="border-b-2 border-r-2 border-white "
-          src={"../src/assets/gallery-1.jpg"}
+          src={Gallery1}
           alt=""
         />
-        <img src={"../src/assets/gallery-2.jpg"} alt="" />
-        <img src={"../src/assets/gallery-3.jpg"} alt="" />
-        <img src={"../src/assets/gallery-4.jpg"} alt="" />
-        <img src={"../src/assets/gallery-5.jpg"} alt="" />
-        <img src={"../src/assets/gallery-6.jpg"} alt="" />
-        <img src={"../src/assets/gallery-7.jpg"} alt="" />
-        <img src={"../src/assets/gallery-8.jpg"} alt="" />
+        <img src={Gallery2} alt="" />
+        <img src={Gallery3} alt="" />
+        <img src={Gallery4} alt="" />
+        <img src={Gallery5} alt="" />
+        <img src={Gallery6} alt="" />
+        <img src={Gallery7} alt="" />
+        <img src={Gallery8} alt="" />
       </div>
     </section>
   );

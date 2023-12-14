@@ -4,21 +4,21 @@ const menu = [
   {
     name: "Lobster Bisque",
     price: 5.95,
-    imageURL: "../src/assets/lobster-bisque.jpg",
+    imageURL: "/img/lobster-bisque.jpg",
     category: "starter",
     description: "Lorem, deren, trataro, filede, nerada",
   },
   {
     name: "Bread Barrel",
     price: 6.95,
-    imageURL: "../src/assets/bread-barrel.jpg",
+    imageURL: "/img/bread-barrel.jpg",
     category: "specialty",
     description: "Lorem, deren, trataro, filede, nerada",
   },
   {
     name: "Crab Cake",
     price: 7.95,
-    imageURL: "../src/assets/cake.jpg",
+    imageURL: "/img/cake.jpg",
     category: "starter",
     description:
       "A delicate crab cake served on a toasted roll with lettuce and tartar sauce",
@@ -26,14 +26,14 @@ const menu = [
   {
     name: "Caesar Selection",
     price: 8.95,
-    imageURL: "../src/assets/caesar.jpg",
+    imageURL: "/img/caesar.jpg",
     category: "salad",
     description: "Lorem, deren, trataro, filede, nerada",
   },
   {
     name: "Tuscan Grilled",
     price: 9.95,
-    imageURL: "../src/assets/tuscan-grilled.jpg",
+    imageURL: "/img/tuscan-grilled.jpg",
     category: "specialty",
     description:
       "Grilled chicken with provolone, artichoke hearts, and roasted red pesto",
@@ -41,14 +41,14 @@ const menu = [
   {
     name: "Mozzarella Stick",
     price: 4.95,
-    imageURL: "../src/assets/mozzarella.jpg",
+    imageURL: "/img/mozzarella.jpg",
     category: "starter",
     description: "Lorem, deren, trataro, filede, nerada",
   },
   {
     name: "Spinach Salad",
     price: 9.95,
-    imageURL: "../src/assets/spinach-salad.jpg",
+    imageURL: "/img/spinach-salad.jpg",
     category: "salad",
     description:
       "Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette",
@@ -56,14 +56,14 @@ const menu = [
   {
     name: "Greek Salad",
     price: 9.95,
-    imageURL: "../src/assets/greek-salad.jpg",
+    imageURL: "/img/greek-salad.jpg",
     category: "salad",
     description: "Lorem, deren, trataro, filede, nerada",
   },
   {
     name: "Lobster Roll",
     price: 12.95,
-    imageURL: "../src/assets/lobster-roll.jpg",
+    imageURL: "/img/lobster-roll.jpg",
     category: "specialty",
     description:
       "Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll",

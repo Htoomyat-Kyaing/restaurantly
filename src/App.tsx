@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import Menu from "./components/Menu";
 import Reservation from "./components/Reservation";
 import Special from "./components/Special";
+import Testimonials from "./components/Testimonials";
 import WhyUs from "./components/WhyUs";
 
 export default function App() {
@@ -20,22 +21,11 @@ export default function App() {
       <Special />
       <Events />
       <Reservation />
-      <Chefs />
+      <Testimonials />
       <Gallery />
+      <Chefs />
       <Contact />
       <Footer />
-      <div className="w-full h-max text-center bg-zinc-950 text-white py-6 gap-3 flex flex-col">
-        <p>
-          © Copyright <span className="font-bold">Restaurantly</span>. All
-          Rights Reserved
-        </p>
-        <p>
-          Designed by{" "}
-          <a className="text-yellow-200" href="">
-            Anonymous
-          </a>
-        </p>
-      </div>
     </>
   );
 }

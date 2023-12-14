@@ -1,6 +1,6 @@
 const Special = () => {
   return (
-    <section className="w-screen h-screen flex items-center justify-center">
+    <section className="flex items-center justify-center w-full h-screen">
       Special
     </section>
   );

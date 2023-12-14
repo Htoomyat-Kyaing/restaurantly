@@ -1,13 +1,13 @@
 const WhyUs = () => {
   return (
-    <section className="w-screen h-max bg-zinc-900 px-6 py-12 md:px-20">
-      <h2 className="text-zinc-500 text-2xl mb-4">Why Us</h2>
-      <h3 className="text-3xl text-yellow-200 font-bold">
+    <section className="w-full px-6 py-12 h-max bg-zinc-900 md:px-20">
+      <h2 className="mb-4 text-2xl text-zinc-500">Why Us</h2>
+      <h3 className="text-3xl font-bold text-yellow-200">
         Why Choose Our Restaurant
       </h3>
 
-      <div className="w-full flex flex-col gap-6 md:flex-row my-12">
-        <div className="bg-zinc-800 w-full flex flex-col gap-3 py-12 px-6 group/card hover:bg-yellow-200 hover:bg-opacity-40">
+      <div className="flex flex-col w-full gap-6 my-12 md:flex-row">
+        <div className="flex flex-col w-full gap-3 px-6 py-12 bg-zinc-800 group/card hover:bg-yellow-200 hover:bg-opacity-40">
           <p className="text-3xl font-bold text-yellow-200 group-hover/card:text-zinc-100">
             01
           </p>
@@ -17,7 +17,7 @@ const WhyUs = () => {
             consectetur ducimus vero placeat
           </p>
         </div>
-        <div className="bg-zinc-800 w-full flex flex-col gap-3 py-12 px-6 group/card hover:bg-yellow-200 hover:bg-opacity-40">
+        <div className="flex flex-col w-full gap-3 px-6 py-12 bg-zinc-800 group/card hover:bg-yellow-200 hover:bg-opacity-40">
           <p className="text-3xl font-bold text-yellow-200 group-hover/card:text-zinc-100">
             02
           </p>
@@ -27,7 +27,7 @@ const WhyUs = () => {
             consectetur ducimus vero placeat
           </p>
         </div>
-        <div className="bg-zinc-800 w-full flex flex-col gap-3 py-12 px-6 group/card hover:bg-yellow-200 hover:bg-opacity-40">
+        <div className="flex flex-col w-full gap-3 px-6 py-12 bg-zinc-800 group/card hover:bg-yellow-200 hover:bg-opacity-40">
           <p className="text-3xl font-bold text-yellow-200 group-hover/card:text-zinc-100">
             03
           </p>

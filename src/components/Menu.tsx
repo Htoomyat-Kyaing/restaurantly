@@ -78,7 +78,7 @@ const menu = [
 
 const Menu = () => {
   return (
-    <section className="w-screen px-6 py-10 h-max bg-zinc-800 md:px-20">
+    <section className="w-full px-6 py-10 h-max bg-zinc-800 md:px-20">
       <h2 className="mb-4 text-2xl text-zinc-500">Menu</h2>
       <h3 className="text-3xl font-bold text-yellow-200">
         Check Our Tasty Menu

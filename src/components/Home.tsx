@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 
 const Home = () => {
   return (
-    <section className="w-screen h-screen">
+    <section className="w-full h-screen">
       <div className="w-full h-full bg-[url('./assets/hero-bg.jpg')] bg-cover bg-center">
         <Navbar />
         <div className="w-full h-full bg-opacity-50 bg-zinc-900">

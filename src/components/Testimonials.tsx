@@ -1,9 +1,9 @@
-const Events = () => {
+const Testimonials = () => {
   return (
     <section className="flex items-center justify-center w-full h-screen">
-      Events
+      Testimonials
     </section>
   );
 };
 
-export default Events;
+export default Testimonials;

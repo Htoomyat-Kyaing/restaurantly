@@ -9,7 +9,7 @@ import Gallery8 from "../assets/gallery-8.jpg";
 
 const Gallery = () => {
   return (
-    <section className="w-screen px-6 py-12 h-max bg-zinc-900 md:px-20">
+    <section className="w-full px-6 py-12 h-max bg-zinc-900 md:px-20">
       <h2 className="mb-4 text-2xl text-zinc-500">Why Us</h2>
       <h3 className="text-3xl font-bold text-yellow-200">
         Why Choose Our Restaurant

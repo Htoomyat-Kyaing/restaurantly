@@ -6,8 +6,8 @@ const Home = () => {
       <div className="w-full h-full bg-[url('./assets/hero-bg.jpg')] bg-cover bg-center">
         <Navbar />
         <div className="w-full h-full bg-opacity-50 bg-zinc-900">
-          <div className="grid w-full h-screen p-20 text-white md:grid-cols-3">
-            <div className="flex flex-col items-center justify-center w-full md:col-span-2 md:items-start">
+          <div className="grid items-center w-full h-screen text-white md:grid-cols-3 md:pl-20">
+            <div className="flex flex-col items-center w-full text-center md:col-span-2 md:items-start">
               <h2 className="mb-3 text-3xl font-bold md:text-5xl">
                 Welcome to <span className="text-yellow-200">Restaurantly</span>
               </h2>

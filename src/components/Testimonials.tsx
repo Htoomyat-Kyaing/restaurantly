@@ -1,10 +1,7 @@
 const Testimonials = () => {
   return (
-    <section className="w-full px-6 py-12 bg-zinc-950 h-max md:px-20">
-      <h2 className="mb-4 text-2xl text-zinc-500">Testimonials</h2>
-      <h3 className="text-3xl font-bold text-yellow-200">
-        What they're saying about us
-      </h3>
+    <section className="flex items-center justify-center w-full h-screen px-6 py-12 text-yellow-200 bg-zinc-950 md:px-20">
+      <h1>Testimonials</h1>
     </section>
   );
 };

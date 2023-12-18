@@ -1,5 +1,7 @@
 // import { useState } from "react";
 
+import { useEffect, useState } from "react";
+
 const menu = [
   {
     name: "Lobster Bisque",
@@ -12,7 +14,7 @@ const menu = [
     name: "Bread Barrel",
     price: 6.95,
     imageURL: "/img/bread-barrel.jpg",
-    category: "specialty",
+    category: "speciality",
     description: "Lorem, deren, trataro, filede, nerada",
   },
   {
@@ -34,7 +36,7 @@ const menu = [
     name: "Tuscan Grilled",
     price: 9.95,
     imageURL: "/img/tuscan-grilled.jpg",
-    category: "specialty",
+    category: "speciality",
     description:
       "Grilled chicken with provolone, artichoke hearts, and roasted red pesto",
   },
@@ -64,19 +66,27 @@ const menu = [
     name: "Lobster Roll",
     price: 12.95,
     imageURL: "/img/lobster-roll.jpg",
-    category: "specialty",
+    category: "speciality",
     description:
       "Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll",
   },
 ];
 
-// const [filteredMenu, setFilteredMenu] = useState(menu);
-
-// const handleClick = (e: any) => {
-//   console.log(e);
-// };
-
 const Menu = () => {
+  const [filteredMenu, setFilteredMenu] = useState(menu);
+
+  const handleClick = (e: any) => {
+    if (e.target.value === "all") {
+      setFilteredMenu(menu);
+      return;
+    }
+    let filteredMenu = menu.filter((m) => m.category === e.target.value);
+    setFilteredMenu(filteredMenu);
+  };
+  useEffect(() => {
+    setFilteredMenu(menu);
+  }, []);
+
   return (
     <section className="w-full px-6 py-10 h-max bg-zinc-800 md:px-20">
       <h2 className="mb-4 text-2xl text-zinc-500">Menu</h2>
@@ -85,14 +95,38 @@ const Menu = () => {
       </h3>
 
       <div className="flex items-center justify-center gap-5 my-6 text-lg font-semibold text-white ">
-        <button className="hover:text-yellow-200">All</button>
-        <button className="hover:text-yellow-200">Starters</button>
-        <button className="hover:text-yellow-200">Salads</button>
-        <button className="hover:text-yellow-200">Speciality</button>
+        <button
+          className="hover:text-yellow-200"
+          value={"all"}
+          onClick={(e) => handleClick(e)}
+        >
+          All
+        </button>
+        <button
+          className="hover:text-yellow-200"
+          value={"starter"}
+          onClick={handleClick}
+        >
+          Starters
+        </button>
+        <button
+          className="hover:text-yellow-200"
+          value={"salad"}
+          onClick={handleClick}
+        >
+          Salads
+        </button>
+        <button
+          className="hover:text-yellow-200"
+          value={"speciality"}
+          onClick={handleClick}
+        >
+          Speciality
+        </button>
       </div>
 
       <ul className="grid w-full gap-3 text-white md:grid-cols-2 md:gap-6">
-        {menu.map((item: any) => (
+        {filteredMenu.map((item: any) => (
           <li key={item.name} className="flex w-full gap-2">
             <div className="flex items-center justify-center w-16 h-16 rounded-full bg-zinc-700">
               <img

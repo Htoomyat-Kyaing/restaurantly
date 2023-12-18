@@ -11,7 +11,7 @@ const Events = () => {
       <div className="w-full h-screen mt-6 text-white">
         <Carousel>
           <div className="grid md:grid-cols-2">
-            <img src="/public/img/event-birthday.jpg" alt="..." />
+            <img src="/img/event-birthday.jpg" alt="..." />
 
             <div className="flex flex-col w-full h-full mx-6 justify-evenly">
               <h3 className="text-3xl font-bold text-yellow-200">
@@ -29,7 +29,7 @@ const Events = () => {
           </div>
 
           <div className="grid md:grid-cols-2">
-            <img src="/public/img/event-custom.jpg" alt="..." />
+            <img src="/img/event-custom.jpg" alt="..." />
 
             <div className="flex flex-col w-full h-full mx-6 justify-evenly">
               <h3 className="text-3xl font-bold text-yellow-200">
@@ -46,7 +46,7 @@ const Events = () => {
             </div>
           </div>
           <div className="grid md:grid-cols-2">
-            <img src="/public/img/event-private.jpg" alt="..." />
+            <img src="/img/event-private.jpg" alt="..." />
 
             <div className="flex flex-col w-full h-full mx-6 justify-evenly">
               <h3 className="text-3xl font-bold text-yellow-200">

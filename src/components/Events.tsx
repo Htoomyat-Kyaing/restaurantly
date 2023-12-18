@@ -8,8 +8,8 @@ const Events = () => {
         Organize Your Events in our Restaurant
       </h3>
 
-      <div className="w-full mt-6 text-white">
-        <Carousel className="h-96">
+      <div className="w-full h-screen mt-6 text-white">
+        <Carousel>
           <div className="grid md:grid-cols-2">
             <img src="/public/img/event-birthday.jpg" alt="..." />
 
